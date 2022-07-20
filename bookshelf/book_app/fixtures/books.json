@@ -1,0 +1,82 @@
+[
+  {
+    "model": "book_app.book",
+    "pk": 1,
+    "fields": {
+      "title": "Sherlock Holmes",
+      "author": "Sir Arthur Conan Doyle",
+      "description": "A collection of short stories where a brilliant yet detached detective solves mysteries with his sidekick doctor.",
+      "genre": 1
+    }
+  },
+  {
+    "model": "book_app.book",
+    "pk": 2,
+    "fields": {
+      "title": "Nancy Drew",
+      "author": "Carolyn Keene",
+      "description": "Nancy Drew takes on several local mysteries with her two best friends",
+      "genre": 1
+    }
+  },
+  {
+    "model": "book_app.book",
+    "pk": 3,
+    "fields": {
+      "title": "Cards on the Table",
+      "author": "Carolyn Keene",
+      "description": "Detective Hercules Poirot unravels a mysterious murder between 4 suspects in a Bridge game",
+      "genre": 1
+    }
+  },
+  {
+    "model": "book_app.book",
+    "pk": 4,
+    "fields": {
+      "title": "Don Quixote",
+      "author": "Sylvia Plath",
+      "description": "Follow Don Quixote and his sidekick as they run into dillusional shenanigans",
+      "genre": 2
+    }
+  },
+  {
+    "model": "book_app.book",
+    "pk": 5,
+    "fields": {
+      "title": "Othello",
+      "author": "William Shakespeare",
+      "description": "Another tragic love story",
+      "genre": 2
+    }
+  },
+  {
+    "model": "book_app.book",
+    "pk": 6,
+    "fields": {
+      "title": "The Iliad",
+      "author": "Homer",
+      "description": "Epic poem that recounts the final weeks of the Trojan War",
+      "genre": 2
+    }
+  },
+  {
+    "model": "book_app.book",
+    "pk": 7,
+    "fields": {
+      "title": "Harry Potter",
+      "author": "J.K. Rowling",
+      "description": "Magical orphan boy tries to save the world at a wizard school",
+      "genre": 3
+    }
+  },
+  {
+    "model": "book_app.book",
+    "pk": 7,
+    "fields": {
+      "title": "Good Omens",
+      "author": "Terry Pratchett and Neil Gaiman",
+      "description": "An angel and demon team up to prevent the end of times",
+      "genre": 3
+    }
+  }
+]

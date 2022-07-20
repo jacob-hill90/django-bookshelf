@@ -1,0 +1,18 @@
+{% extends 'book_app/index.html' %}
+
+{%block content%}
+<!-- WE DON"T WORRY ABOUT THE GENRE, PRE-DETERMINED -->
+<h1>Edit Book</h1>
+<label>Title:</label>
+<!-- QUOTATIONS AROUND VALUE -->
+<!-- VALUE WILL POPULATE THE FORM FOR YOU -->
+<input id = "newTitle" value = "{{book.title}}"></input>
+<br>
+<label>Author:</label>
+<input id = "newAuthor" value = "{{book.author}}"></input>
+<br>
+<label>Description:</label>
+<input id = "newDescription" value = "{{book.description}}"></input>
+<br>
+<button onClick = "{editBook();}">Submit!</button>
+{% endblock %}

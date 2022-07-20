@@ -1,0 +1,16 @@
+{% extends 'book_app/index.html' %}
+
+{%block content%}
+<!-- WE DON"T WORRY ABOUT THE GENRE, PRE-DETERMINED -->
+<h1>Add New Book</h1>
+<label>Title:</label>
+<input id = "newTitle"></input>
+<br>
+<label>Author:</label>
+<input id = "newAuthor"></input>
+<br>
+<label>Description:</label>
+<input id = "newDescription"></input>
+<br>
+<button onClick = "{saveBook();}">Submit!</button>
+{% endblock %}
